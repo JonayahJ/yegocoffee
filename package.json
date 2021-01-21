@@ -1,6 +1,6 @@
 {
-  "name": "lazy-kit",
-  "version": "0.1.0",
+  "name": "yego-coffee-website",
+  "version": "2.0.0",
   "private": true,
   "homepage": "https://bootstrapbay.github.io/lazy-kit-react/",
   "dependencies": {
@@ -42,5 +42,24 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "<p align=\"center\"> <a href=\"https://bootstrapbay.github.io/lazy-kit-react/\"><img src=\"./src/assets/img/lazy_react.jpg\" width=\"600\" /></a> </p>",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonayahJ/yegocoffee-website.git"
+  },
+  "keywords": [
+    "Rwanda",
+    "Coffee",
+    "Green",
+    "Roasted",
+    "Boston"
+  ],
+  "author": "Jonayah M. Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonayahJ/yegocoffee-website/issues"
   }
 }
