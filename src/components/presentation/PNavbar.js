@@ -46,49 +46,58 @@ class PNavbar extends React.Component {
               </NavLink>
               <NavbarToggler onClick={this.toggle} />
               <Collapse isOpen={this.state.isOpen} navbar>
+                
+                {/* Left Nav */}
                 <Nav className="mx-2" navbar>
+                  
+                  {/* About Dropdown */}
                   <NavItem key="navitem-1">
                     <UncontrolledDropdown>
                       <DropdownToggle nav>
-                        Components
+                        About
                       </DropdownToggle>
                       <DropdownMenu>
-                        <Link to="/documentation/getting-started">
-                          <DropdownItem>Getting Started</DropdownItem>
+                        <Link to="/about-francois">
+                          <DropdownItem>About Francois</DropdownItem>
                         </Link>
-                        <Link to="/documentation/alerts">
-                          <DropdownItem>Core Elements</DropdownItem>
+                        <Link to="/coffee-changes-lives">
+                          <DropdownItem>Coffee That Changes Lives</DropdownItem>
+                        </Link>
+                        <Link to="/our-story">
+                          <DropdownItem>Our Story</DropdownItem>
+                        </Link>
+                        <Link to="/washing-stations">
+                          <DropdownItem>Washing Stations</DropdownItem>
                         </Link>
                       </DropdownMenu>
                     </UncontrolledDropdown>
                   </NavItem>
-                  <NavItem key="navitem-2">
-                    <UncontrolledDropdown>
-                      <DropdownToggle nav>
-                        Examples
-                      </DropdownToggle>
-                      <DropdownMenu>
-                        <Link to="/register">
-                          <DropdownItem>Register</DropdownItem>
-                        </Link>
-                        <Link to="/profile">
-                          <DropdownItem>Profile</DropdownItem>
-                        </Link>
-                        <Link to="/landing">
-                          <DropdownItem>Landing</DropdownItem>
-                        </Link>
-                      </DropdownMenu>
-                    </UncontrolledDropdown>
+
+                  {/* Links */}
+                  <NavItem>
+                    <NavLink to="/blog">Blog</NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink to="/shop">Shop</NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink to="/contact">Contact</NavLink>
                   </NavItem>
                 </Nav>
+                
+                {/* Right Nav */}
                 <Nav className="ml-auto" navbar>
-                  <NavItem key="navitem-3">
-                    <NavLink className="btn btn-outline-light" to="/documentation">Documentation</NavLink>
+                  {/* Shopping Cart Button */}
+                  <NavItem key="navitem-5">
+                  <Button color="light" href="/#">
+                      <FontAwesomeIcon icon="shopping-cart" /> {" "}
+                    </Button>
                   </NavItem>
+                  
+                  {/* Login Button */}
                   <NavItem className="mx-2">
-                    <Button color="light" href="https://bootstrapbay.com/theme/lazy-free-react-ui-kit-BD90DEB">
-                      <FontAwesomeIcon icon="download" /> {" "}
-                      Download
+                    <Button color="light" href="/#">
+                      <FontAwesomeIcon icon="user" /> {" "}
                     </Button>
                   </NavItem>
                 </Nav>
