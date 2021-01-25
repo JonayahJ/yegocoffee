@@ -1,216 +1,103 @@
-import React from "react";
-import { Redirect } from "react-router-dom";
+// import React from "react";
+// import { Redirect } from "react-router-dom";
 
 // Layouts
 import DefaultLayout from "./layouts/DefaultLayout";
-import DocumentationLayout from "./layouts/DocumentationLayout";
 
 // Views
 import Presentation from "./views/Presentation";
 import Landing from "./views/Landing";
 import Register from "./views/Register";
-import Profile from "./views/Profile";
-import GettingStarted from "./views/documentation/GettingStarted";
-import License from "./views/documentation/License";
-import Contents from "./views/documentation/Contents";
-import Alerts from "./views/documentation/Alerts";
-import Badges from "./views/documentation/Badges";
-import Breadcrumbs from "./views/documentation/Breadcrumbs";
-import Buttons from "./views/documentation/Buttons";
-import Cards from "./views/documentation/Cards";
-import Dropdowns from "./views/documentation/Dropdowns";
-import FontAwesome from "./views/documentation/FontAwesome";
-import Forms from "./views/documentation/Forms";
-import GridLayout from "./views/documentation/GridLayout";
-import Modals from "./views/documentation/Modals";
-import Navbars from "./views/documentation/Navbars";
-import Navs from "./views/documentation/Navs";
-import Paginations from "./views/documentation/Paginations";
-import ProgressBars from "./views/documentation/ProgressBars";
-import Sliders from "./views/documentation/Sliders";
-import TooltipsPopovers from "./views/documentation/TooltipsPopovers";
-import Typography from "./views/documentation/Typography";
-import Credits from "./views/documentation/Credits";
-import Support from "./views/documentation/Support";
+// import Profile from "./views/Profile";
 
-let presentation_routes = [
+
+let yegocoffee_routes = [
   {
     path: "/",
     exact: true,
     layout: DefaultLayout,
     component: Presentation,
-    name: "Presentation"
+    name: "Home"
   },
   {
-    path: "/register",
-    layout: DefaultLayout,
-    component: Register,
-    name: "Register"
-  },
-  {
-    path: "/profile",
-    layout: DefaultLayout,
-    component: Profile,
-    name: "Profile"
-  },
-  {
-    path: "/landing",
+    path: "/blog",
     layout: DefaultLayout,
     component: Landing,
-    name: "Landing"
+    name: "Blog"
+  },
+  {
+    path: "/shop",
+    layout: DefaultLayout,
+    component: Presentation,
+    name: "Shop"
+  },
+  {
+    path: "/contact",
+    layout: DefaultLayout,
+    component: Register,
+    name: "Contact"
+  },
+  {
+    path: "/terms",
+    layout: DefaultLayout,
+    component: Landing,
+    name: "Terms"
+  },
+  {
+    path: "/privacy",
+    layout: DefaultLayout,
+    component: Landing,
+    name: "Privacy"
+  },
+  {
+    path: "/washing-stations",
+    layout: DefaultLayout,
+    component: Presentation,
+    name: "Washing Stations"
   }
 ];
 
-let doc_route = [
+let about_routes = [
   {
-    path: "/documentation",
-    exact: true,
-    layout: DocumentationLayout,
-    component: () => <Redirect to="/documentation/getting-started" />,
-    name: "Documentation"
+    path: "/about/about-francois",
+    layout: DefaultLayout,
+    component: Landing,
+    name: "About Francois"
+  },
+  {
+    path: "/about/coffee-changes-lives",
+    layout: DefaultLayout,
+    component: Landing,
+    name: "Coffee That Changes Lives"
+  },
+  {
+    path: "/about/our-story",
+    layout: DefaultLayout,
+    component: Landing,
+    name: "Our Story"
+  },
+  {
+    path: "/about/washing-stations",
+    layout: DefaultLayout,
+    component: Presentation,
+    name: "Washing Stations"
   }
 ];
 
-let introduction_routes = [
+let legal_routes = [
   {
-    path: "/documentation/getting-started",
-    layout: DocumentationLayout,
-    component: GettingStarted,
-    name: "Getting Started"
+    path: "/legal/terms",
+    layout: DefaultLayout,
+    component: Landing,
+    name: "Terms and Conditions"
   },
   {
-    path: "/documentation/license",
-    layout: DocumentationLayout,
-    component: License,
-    name: "License"
-  },
-  {
-    path: "/documentation/contents",
-    layout: DocumentationLayout,
-    component: Contents,
-    name: "Contents"
+    path: "/legal/privacy",
+    layout: DefaultLayout,
+    component: Landing,
+    name: "Privacy Policy"
   }
 ];
 
-let documentation_routes = [
-  {
-    path: "/documentation/alerts",
-    layout: DocumentationLayout,
-    component: Alerts,
-    name: "Alerts"
-  },
-  {
-    path: "/documentation/badges",
-    layout: DocumentationLayout,
-    component: Badges,
-    name: "Badges"
-  },
-  {
-    path: "/documentation/breadcrumbs",
-    layout: DocumentationLayout,
-    component: Breadcrumbs,
-    name: "Breadcrumbs"
-  },
-  {
-    path: "/documentation/buttons",
-    layout: DocumentationLayout,
-    component: Buttons,
-    name: "Buttons"
-  },
-  {
-    path: "/documentation/cards",
-    layout: DocumentationLayout,
-    component: Cards,
-    name: "Cards"
-  },
-  {
-    path: "/documentation/dropdowns",
-    layout: DocumentationLayout,
-    component: Dropdowns,
-    name: "Dropdowns"
-  },
-  {
-    path: "/documentation/font-awesome",
-    layout: DocumentationLayout,
-    component: FontAwesome,
-    name: "Font Awesome"
-  },
-  {
-    path: "/documentation/forms",
-    layout: DocumentationLayout,
-    component: Forms,
-    name: "Forms"
-  },
-  {
-    path: "/documentation/grid-layout",
-    layout: DocumentationLayout,
-    component: GridLayout,
-    name: "Grid & Layout"
-  },
-  {
-    path: "/documentation/modals",
-    layout: DocumentationLayout,
-    component: Modals,
-    name: "Modals"
-  },
-  {
-    path: "/documentation/navbars",
-    layout: DocumentationLayout,
-    component: Navbars,
-    name: "Navbar"
-  },
-  {
-    path: "/documentation/navs",
-    layout: DocumentationLayout,
-    component: Navs,
-    name: "Navs"
-  },
-  {
-    path: "/documentation/pagination",
-    layout: DocumentationLayout,
-    component: Paginations,
-    name: "Pagination"
-  },
-  {
-    path: "/documentation/progress-bars",
-    layout: DocumentationLayout,
-    component: ProgressBars,
-    name: "ProgressBars"
-  },
-  {
-    path: "/documentation/sliders",
-    layout: DocumentationLayout,
-    component: Sliders,
-    name: "Sliders"
-  },
-  {
-    path: "/documentation/tooltips-popovers",
-    layout: DocumentationLayout,
-    component: TooltipsPopovers,
-    name: "Tooltips & Popovers"
-  },
-  {
-    path: "/documentation/typography",
-    layout: DocumentationLayout,
-    component: Typography,
-    name: "Typography"
-  }
-];
-
-let support_routes = [
-  {
-    path: "/documentation/credits",
-    layout: DocumentationLayout,
-    component: Credits,
-    name: "Credits"
-  },
-  {
-    path: "/documentation/support",
-    layout: DocumentationLayout,
-    component: Support,
-    name: "Support"
-  }
-];
-
-let routes = [...presentation_routes, ...doc_route, ...introduction_routes, ...documentation_routes, ...support_routes];
-export { routes, presentation_routes, introduction_routes, documentation_routes, support_routes };
+let routes = [...yegocoffee_routes, ...about_routes, ...legal_routes];
+export { routes, yegocoffee_routes, about_routes, legal_routes };
