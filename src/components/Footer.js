@@ -12,10 +12,12 @@ const Footer = (props) => {
       <div className="d-flex flex-column flex-md-row justify-content-between align-items-center">
       	<div className="links">
       		<ul className="footer-menu list-unstyled d-flex flex-row text-center text-md-left">
-      			<li><a href="https://bootstrapbay.com/" target="_blank" rel="noopener noreferrer">Store</a></li>
-      			<li><a href="https://bootstrapbay.com/about" target="_blank" rel="noopener noreferrer">About Us</a></li>
-      			<li><a href="https://bootstrapbay.com/blog/" target="_blank" rel="noopener noreferrer">Blog</a></li>
-      			<li><a href="https://bootstrapbay.com/terms" target="_blank" rel="noopener noreferrer">Terms & Conditions</a></li>
+      			<li><a href="/our-story">About</a></li>
+      			<li><a href="/blog">Blog</a></li>
+      			<li><a href="/shop">Shop</a></li>
+      			<li><a href="/contact">Contact</a></li>
+      			<li><a href="/terms">Terms</a></li>
+      			<li><a href="/privacy">Privacy</a></li>
       		</ul>
       	</div>
       	<div className="social mt-4 mt-md-0">
@@ -29,9 +31,9 @@ const Footer = (props) => {
             <span className="sr-only">View our Facebook Profile</span>
           </Button>
           {" "}
-          <Button color="primary" outline className="github btn-icon" href="https://github.com/bootstrapbay" target="_blank">
-            <FontAwesomeIcon icon={['fab', 'github']} />
-            <span className="sr-only">View our GitHub Profile</span>
+          <Button color="primary" outline className="instagram btn-icon" href="https://github.com/bootstrapbay" target="_blank">
+            <FontAwesomeIcon icon={['fab', 'instagram']} />
+            <span className="sr-only">View our Instagram Profile</span>
           </Button>
         </div>
       </div>
