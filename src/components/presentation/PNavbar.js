@@ -74,6 +74,13 @@ class PNavbar extends React.Component {
                   </NavItem>
 
                   {/* Links */}
+                  <NavItem key="navitem-1">
+                    <UncontrolledDropdown>
+                      <DropdownToggle nav>
+                        <Link to="/blog">Blog</Link>
+                      </DropdownToggle>
+                    </UncontrolledDropdown>
+                  </NavItem>
                   <NavItem>
                     <NavLink to="/blog">Blog</NavLink>
                   </NavItem>

@@ -10,12 +10,12 @@ const PCTA = (props) => {
       <div className="emoji mb-3">
       	<img src={HeartEyesEmoji} width="50" alt="HeartEmoji"/>
       </div>
-      <h1 className="text-white">Try Lazy Kit for free</h1>
+      <h1 className="text-white">Request a Free Sample!</h1>
       <p className="lead">
-        Do you like how this kit looks? See what you can built with it! <br /> We would love to see your work.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. <br /> Ut enim ad minim veniam, quis nostrud exercitation.
       </p>
-      <Button href="https://bootstrapbay.com/theme/lazy-free-react-ui-kit-BD90DEB" color="white" size="lg" className="mt-4">
-        Download
+      <Button href="#" color="white" size="lg" className="mt-4">
+        Get Your Sample
       </Button>
     </div>
   );
