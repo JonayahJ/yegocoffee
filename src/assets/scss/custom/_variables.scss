@@ -23,6 +23,7 @@ $primary: #FFCB05; // Sunglow
 $primary-light: #FFDB57; // Golden Yellow Y17
 $secondary: #11296B; // Royal Blue Dark
 $secondary-light: #00509D; // USAFA Blue
+$tertiary: #588157; // Fern Green
 $success: #007A5B;
 $info: #1264A4;
 $warning: #ECB22F;
@@ -30,6 +31,7 @@ $danger: #E01E5B;
 
 $bg-primary: #FFCB05;
 $bg-secondary: #11296B;
+$bg-tertiary: #588157;
 $bg-success: #2EB67D;
 $bg-info: #167895;
 $bg-warning: #EBB12B;
@@ -57,6 +59,7 @@ $theme-colors: () !default;
 $theme-colors: map-merge((
   "primary":      $primary,
   "secondary":    $secondary,
+  "tertiary":     $tertiary,
   "success":      $success,
   "info":         $info,
   "warning":      $warning,
@@ -71,6 +74,7 @@ $bg-colors: () !default;
 $bg-colors: map-merge((
   "primary":      $bg-primary,
   "secondary":    $bg-secondary,
+  "tertiary":     $bg-tertiary,
   "success":      $bg-success,
   "info":         $bg-info,
   "warning":      $bg-warning,

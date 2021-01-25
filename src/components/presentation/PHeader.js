@@ -1,15 +1,15 @@
 import React from "react";
 import {
+  Button,
   Col,
   Container,
   Row
 } from "reactstrap";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import BBLogo from "./../../assets/img/bb_logo_white.png";
+import GreenBeans from "./../../assets/img/greencoffeebeans.jpg";
 
 const ExampleHeader = (props) => (
-  <div className="page-hero bg-primary text-white" id="banner">
+  <div className="page-hero bg-tertiary text-white" id="banner">
 		<div className="bubbles d-none d-md-block">
 
       <div className="bubble bubble-1 rotate-bubble bg-warning"></div>
@@ -40,23 +40,20 @@ const ExampleHeader = (props) => (
 		</div>
   	<Container>
       <Row>
-        <Col xs="12" lg={{size: 8, offset: 2}} className="text-center">
+        <Col xs="6" lg={{size: 4}} className="text-left">
+          {/* Header Text */}
 	          <div className="title">
-	            <h1 className="display-2 text-white">Lazy Kit</h1>
-	            <h4 className="text-white">A new design system for developing with less effort.</h4>
+	            <h1 className="display-2 text-white">GREEN COFFEE BEANS</h1>
+	            <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 	          </div>
-            <div className="credits">
-							<p className="text-white mb-0 small">
-                Made with
-                <span className="text-danger">
-                  {" "} <FontAwesomeIcon icon="heart" /> {" "}
-                </span>
-                by
-              </p>
-              <a href="https://bootstrapbay.com/" className="no-decoration">
-							  <img src={BBLogo} alt="Lazy Kit" width="150" />
-              </a>
-            </div>
+            
+            {/* Header Button */}
+            <Button color="secondary" size="lg" className="btn-pill" href="/shop">Shop</Button>{" "}
+        </Col>
+
+        <Col xs="6" lg={{size: 4, offset: 1}} className="text-left">
+          {/* Header Image */}
+          <img src={GreenBeans} alt="Green Coffee Beans" width="640" />
         </Col>
       </Row>
     </Container>

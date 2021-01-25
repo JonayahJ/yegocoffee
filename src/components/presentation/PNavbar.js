@@ -18,7 +18,7 @@ import {
   NavLink
 } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import logo from './../../assets/img/logo.svg';
+import logo from './../../assets/img/YegoCoffeeLogo_whitetrans.png';
 
 class PNavbar extends React.Component {
     constructor(props) {
@@ -38,17 +38,16 @@ class PNavbar extends React.Component {
     render() {
       return (
         <div>
-          <Navbar className="navbar-dark bg-primary" expand="lg">
+          <Navbar className="navbar-dark bg-tertiary" expand="lg">
             <Container>
               <NavLink to="/" className="navbar-brand">
-                <img src={logo} alt="logo" className="mr-2" height="30" />
-                {this.props.title}
+                <img src={logo} alt="Yego Coffee logo" className="mr-2" height="90" />
               </NavLink>
               <NavbarToggler onClick={this.toggle} />
               <Collapse isOpen={this.state.isOpen} navbar>
                 
                 {/* Left Nav */}
-                <Nav className="mx-2" navbar>
+                <Nav className="mx-2" navbar navbar-nav>
                   
                   {/* About Dropdown */}
                   <NavItem key="navitem-1">
@@ -74,36 +73,23 @@ class PNavbar extends React.Component {
                   </NavItem>
 
                   {/* Links */}
-                  <NavItem key="navitem-1">
-                    <UncontrolledDropdown>
-                      <DropdownToggle nav>
-                        <Link to="/blog">Blog</Link>
-                      </DropdownToggle>
-                    </UncontrolledDropdown>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink to="/blog">Blog</NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink to="/shop">Shop</NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink to="/contact">Contact</NavLink>
-                  </NavItem>
+                  <NavItem className="nav-link" href="/blog">Blog</NavItem>
+                  <NavItem className="nav-link" href="/shop">Shop</NavItem>
+                  <NavItem className="nav-link" href="/contact">Contact</NavItem>
                 </Nav>
                 
                 {/* Right Nav */}
                 <Nav className="ml-auto" navbar>
                   {/* Shopping Cart Button */}
                   <NavItem key="navitem-5">
-                  <Button color="light" href="/#">
+                  <Button color="light" href="#">
                       <FontAwesomeIcon icon="shopping-cart" /> {" "}
                     </Button>
                   </NavItem>
                   
                   {/* Login Button */}
                   <NavItem className="mx-2">
-                    <Button color="light" href="/#">
+                    <Button color="light" href="#">
                       <FontAwesomeIcon icon="user" /> {" "}
                     </Button>
                   </NavItem>
