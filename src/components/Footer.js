@@ -21,17 +21,12 @@ const Footer = (props) => {
       		</ul>
       	</div>
       	<div className="social mt-4 mt-md-0">
-          <Button color="primary" outline className="twitter btn-icon" href="https://twitter.com/bootstrapbay" target="_blank">
-            <FontAwesomeIcon icon={['fab', 'twitter']} />
-            <span className="sr-only">View our Twitter Profile</span>
-          </Button>
-          {" "}
-          <Button color="primary" outline className="facebook btn-icon" href="https://www.facebook.com/bootstrapbayofficial/" target="_blank">
+          <Button color="primary" outline className="facebook btn-icon" href="https://www.facebook.com/Yego-Coffee-622262424886062" target="_blank">
             <FontAwesomeIcon icon={['fab', 'facebook-square']} /> {" "}
             <span className="sr-only">View our Facebook Profile</span>
           </Button>
           {" "}
-          <Button color="primary" outline className="instagram btn-icon" href="https://github.com/bootstrapbay" target="_blank">
+          <Button color="primary" outline className="instagram btn-icon" href="https://www.instagram.com/yegocoffee/" target="_blank">
             <FontAwesomeIcon icon={['fab', 'instagram']} />
             <span className="sr-only">View our Instagram Profile</span>
           </Button>
@@ -39,11 +34,11 @@ const Footer = (props) => {
       </div>
       <div className="copyright text-center">
       	<hr />
-      	<p className="small">&copy; 2019, made with
+      	<p className="small">&copy; 2021 Yego Coffee. Made with
           <span className="text-danger">
             {" "}<FontAwesomeIcon icon="heart" />{" "}
           </span>
-          by BootstrapBay
+          by <a href="https://www.thinkhalcyon.com" target=" _blank" >Think Halcyon</a>.
         </p>
       </div>
       </Container>
