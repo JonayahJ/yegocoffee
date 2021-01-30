@@ -1,0 +1,44 @@
+[
+  {
+    "title": { "main": "Green Coffee Beans" },
+    "subTitle": "Try our genuine Rwandan coffee",
+    "image": "/assets/images/slider/SliderOne/1.png",
+    "btn": {
+      "content": "Shop Now",
+      "color": "red"
+    },
+    "animationClass": {
+      "title": "slider-one-title",
+      "subtitle": "slider-one-subtitle",
+      "button": "slider-one-button"
+    }
+  },
+  {
+    "title": { "main": "Washing Stations in Rwanda" },
+    "subTitle": "Lorem ipsum dolor sit",
+    "image": "/assets/images/slider/SliderOne/2.png",
+    "btn": {
+      "content": "Learn More",
+      "color": "red"
+    },
+    "animationClass": {
+      "title": "slider-one-title",
+      "subtitle": "slider-one-subtitle",
+      "button": "slider-one-button"
+    }
+  },
+  {
+    "title": { "main": "Our Story" },
+    "subTitle": "From Rwanda to Boston",
+    "image": "/assets/images/slider/SliderOne/3.png",
+    "btn": {
+      "content": "Read More",
+      "color": "red"
+    },
+    "animationClass": {
+      "title": "slider-one-title",
+      "subtitle": "slider-one-subtitle",
+      "button": "slider-one-button"
+    }
+  }
+]
