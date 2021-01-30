@@ -48,20 +48,6 @@ export default function MenuFunctionIcons(props) {
         )}
         {!hide.includes("cart") && (
           <>
-            <Link href={process.env.PUBLIC_URL + "/shop/wishlist"}>
-              <a className="menu-icon -wishlist">
-                <img
-                  src={
-                    props.white
-                      ? process.env.PUBLIC_URL +
-                        "/assets/images/header/wishlist-icon-white.png"
-                      : process.env.PUBLIC_URL +
-                        "/assets/images/header/wishlist-icon.png"
-                  }
-                  alt="Wishlist icon"
-                />
-              </a>
-            </Link>
             <div className="menu__cart">
               <a
                 href="#"
@@ -83,9 +69,6 @@ export default function MenuFunctionIcons(props) {
                 />
                 <span className="cart__quantity">{cartState.length}</span>
               </a>
-              <h5>
-                Cart: <span>{formatCurrency(calcalateTotal(cartState))}</span>
-              </h5>
             </div>
             <a
               href="#"
