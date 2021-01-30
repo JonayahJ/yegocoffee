@@ -20,11 +20,11 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/shop/checkout": [
+    "/other/contact": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/shop/fullwidth-4col": [
+    "/shop/checkout": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
