@@ -1,0 +1,94 @@
+[
+    {
+      "id": "1",
+      "name": "Busanze Station",
+      "location": "Nyaruguru District",
+      "altitude": "1800-2100m",
+      "annual-rainfall": "1377mm",
+      "processing-method": "Fully Washed",
+      "water-source": "MountainNatural Spring",
+      "harvest": "",
+      "thumbImage": [
+        "/assets/images/washing-stations/busanze/1.png",
+        "/assets/images/washing-stations/busanze/2.png"
+      ],
+      "images": [
+        "/assets/images/washing-stations/busanze/1.png",
+        "/assets/images/washing-stations/busanze/2.png",
+        "/assets/images/washing-stations/busanze/3.png",
+        "/assets/images/washing-stations/busanze/4.png"
+      ],
+      "description": "",
+      "slug": "busanze"
+    },
+    {
+      "id": "2",
+      "name": "Butambamo Station",
+      "location": "Rusizi District",
+      "altitude": "1500-1700m",
+      "annual-rainfall": "1200-1300mm",
+      "processing-method": "Fully Washed",
+      "water-source": "Mountain Natural Spring",
+      "harvest": "",
+      "thumbImage": [
+        "/assets/images/washing-stations/butambamo/1.png",
+        "/assets/images/washing-stations/butambamo/2.png"
+      ],
+      "images": [
+        "/assets/images/washing-stations/butambamo/1.png",
+        "/assets/images/washing-stations/butambamo/2.png",
+        "/assets/images/washing-stations/butambamo/3.png",
+        "/assets/images/washing-stations/butambamo/4.png"
+      ],
+      "description": "",
+      "slug": "butambamo"
+    },
+    {
+        "id": "3",
+        "name": "Gatare Station",
+        "location": "Nyamasheke District",
+        "altitude": "1542-1857m",
+        "annual-rainfall": "1200-1300mm",
+        "processing-method": 
+            [
+                "Fully Washed",
+                "Natural"
+            ],
+        "water-source": "Natural Spring",
+        "harvest": "",
+        "thumbImage": [
+          "/assets/images/washing-stations/gatare/1.png",
+          "/assets/images/washing-stations/gatare/2.png"
+        ],
+        "images": [
+          "/assets/images/washing-stations/gatare/1.png",
+          "/assets/images/washing-stations/gatare/2.png",
+          "/assets/images/washing-stations/gatare/3.png",
+          "/assets/images/washing-stations/gatare/4.png"
+        ],
+        "description": "",
+        "slug": "gatare"
+      },
+      {
+        "id": "4",
+        "name": "Kiyumba Station",
+        "location": "Muhanga District",
+        "altitude": "1840-2400",
+        "annual-rainfall": "1200-1500mm",
+        "processing-method": "Fully Washed",
+        "water-source": "Natural Spring",
+        "harvest": "March through June",
+        "thumbImage": [
+          "/assets/images/washing-stations/kiyumba/1.png",
+          "/assets/images/washing-stations/kiyumba/2.png"
+        ],
+        "images": [
+          "/assets/images/washing-stations/kiyumba/1.png",
+          "/assets/images/washing-stations/kiyumba/2.png",
+          "/assets/images/washing-stations/kiyumba/3.png",
+          "/assets/images/washing-stations/kiyumba/4.png"
+        ],
+        "description": "",
+        "slug": "kiyumba"
+      }
+]
