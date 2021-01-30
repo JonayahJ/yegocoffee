@@ -39,16 +39,13 @@ export default function FooterOne() {
               <div className="footer__section -info">
                 <h5 className="footer-title">Contact info</h5>
                 <p>
-                  Address: <span>{footerInfomation.address}</span>
+                  Location: <span>{footerInfomation.location}</span>
                 </p>
                 <p>
                   Phone: <span>{footerInfomation.phone}</span>
                 </p>
                 <p>
                   Email: <span>{footerInfomation.email}</span>
-                </p>
-                <p>
-                  Opentime: <span>{footerInfomation.open}</span>
                 </p>
               </div>
             </div>
