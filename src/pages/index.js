@@ -1,17 +1,28 @@
-import Head from "next/head";
-import Link from "next/link";
+import LayoutOne from "../components/Layout/LayoutOne";
+import SliderTwo from "../components/Sections/Slider/SliderTwo";
+import sliderData from "../data/slider/sliderOne.json";
+import IntroductionOne from "../components/Sections/Introduction/IntroductionOne";
+import introductionOneData from "../data/introduction/introductionOne.json";
+import IntroductionTwo from "../components/Sections/Introduction/IntroductionTwo";
+import introductionTwoData from "../data/introduction/introductionTwo.json";
+import ProductSlideOne from "../components/Sections/ProductThumb/ProductSlide/ProductSlideOne";
+import productSlideOneData from "../data/products.json";
+import TestimonialOne from "../components/Sections/Testimonial/TestimonialOne";
+import testimonialOneData from "../data/testimonial/data.json";
+import TeamOne from "../components/Sections/Team/TeamOne";
+import teamOneData from "../data/team/teamOne.json";
+import CTAOne from "../components/Sections/CallToAction/CTAOne";
 
-export default function Home() {
+export default function homepage1() {
   return (
-    <>
-      <Head>
-        <title>Index page</title>
-      </Head>
-      <div className="container">
-        <Link href="/homepages/homepage1">
-          <a>Go to homepage 1</a>
-        </Link>
-      </div>
-    </>
+    <LayoutOne title="Home" data={sliderData} className="-style-1">
+      <SliderTwo data={sliderData} className="-style-1" showDots />
+      <IntroductionOne data={introductionOneData} />
+      <IntroductionTwo data={introductionTwoData} />
+      <ProductSlideOne data={productSlideOneData} />
+      <TestimonialOne data={testimonialOneData} />
+      <TeamOne data={teamOneData} />
+      <CTAOne />
+    </LayoutOne>
   );
 }

@@ -105,7 +105,7 @@
               color: #fff;
               font-weight: 700;
               span {
-                color: setColor(red);
+                color: setColor(#ffcb05ff);
               }
             }
             &__description {
@@ -113,7 +113,7 @@
               margin-bottom: emCal(17, 35);
             }
             .btn {
-              color: setColor(red);
+              color: setColor(#ffcb05ff);
             }
           }
         }
@@ -121,7 +121,7 @@
           .slider-content {
             max-width: emCal(16, 550);
             &__subtitle {
-              color: setColor(darkRed);
+              color: setColor(#ffcb05ff);
             }
             &__title {
               color: setShadeColor(dark);
@@ -138,10 +138,10 @@
           text-align: center;
           .slider-content {
             &__subtitle {
-              color: setColor(darkRed);
+              color: setColor(#ffcb05ff);
             }
             .btn {
-              color: setColor(red);
+              color: setColor(#ffcb05ff);
             }
           }
         }
@@ -154,7 +154,7 @@
       li {
         &.slick-active {
           .slider-dot {
-            background-color: setColor(red);
+            background-color: setColor(#ffcb05ff);
           }
         }
         .slider-dot {
@@ -190,7 +190,7 @@
           max-width: 690px;
           text-align: center;
           padding: emCal(16, 50);
-          border: 1px dashed rgba(setColor(red), $alpha: 0.5);
+          border: 1px dashed rgba(setColor(#ffcb05ff), $alpha: 0.5);
           outline: emCal(16, 10) solid #fff;
           min-height: emCal(16, 345);
           &__title {
@@ -251,7 +251,7 @@
             font-weight: 600;
           }
           &__title {
-            color: setColor(red);
+            color: setColor(#ffcb05ff);
             font-weight: 700;
             span {
               color: setShadeColor(dark);
@@ -286,7 +286,7 @@
       position: relative;
       z-index: 1;
       &__subtitle {
-        color: setColor(red);
+        color: setColor(#ffcb05ff);
       }
       &__title {
         color: setShadeColor(dark);

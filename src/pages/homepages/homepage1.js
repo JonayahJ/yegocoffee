@@ -15,7 +15,7 @@ import CTAOne from "../../components/Sections/CallToAction/CTAOne";
 
 export default function homepage1() {
   return (
-    <LayoutOne title="Homepage 1" data={sliderData} className="-style-1">
+    <LayoutOne title="Home" data={sliderData} className="-style-1">
       <SliderTwo data={sliderData} className="-style-1" showDots />
       <IntroductionOne data={introductionOneData} />
       <IntroductionTwo data={introductionTwoData} />

@@ -58,7 +58,7 @@ export default function SliderTwo({ className, data, showArrows, showDots }) {
                   >
                     <img
                       src={process.env.PUBLIC_URL + slide.image}
-                      alt="Green coffee beans in a tree"
+                      alt="Slider image"
                     />
                   </CSSTransition>
                 </div>

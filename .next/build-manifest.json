@@ -20,7 +20,11 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/homepages/homepage1": [
+    "/blog": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/blog/post/[slug]": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
