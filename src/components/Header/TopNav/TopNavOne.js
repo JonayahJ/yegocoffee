@@ -16,22 +16,9 @@ export default function TopNavOne({ container }) {
         <div className="top-nav__wrapper">
           <SocialIcons className="-white" />
           <p className="top-nav__wrapper__promo">
-            Free shipping on international orders of $120+
+            Free shipping on all orders above $40 with code YC2020 at checkout
           </p>
           <div className="top-nav__wrapper__selectors">
-            selec
-            <Select
-              id="cur"
-              options={["USD", "VND", "YEN"]}
-              getValue={(val) => setCurrency(val)}
-              className="-white -borderless"
-            />
-            <Select
-              id="lang"
-              options={["EN", "VI", "JP"]}
-              getValue={(val) => setLanguage(val)}
-              className="-white -borderless"
-            />
             <Link href={process.env.PUBLIC_URL + "#"}>
               <a className="top-nav__auth">Login/Register</a>
             </Link>

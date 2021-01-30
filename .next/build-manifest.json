@@ -24,11 +24,15 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/blog/post/[slug]": [
+    "/homepages/homepage1": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
     "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/other/contact": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
