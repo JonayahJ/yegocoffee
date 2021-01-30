@@ -516,6 +516,23 @@
           @include mq(lg) {
             padding-left: 0;
           }
+          h5 {
+            @include typo(
+              $fsz: emCal(16, 15),
+              $color: setColor(red),
+              $up: true
+            );
+            letter-spacing: emCal(15, 3);
+            margin-bottom: emCal(15, 30);
+          }
+          h3 {
+            @include typo($fsz: emCal(16, 60), $fw: 600, $color: setColor(red));
+            margin-bottom: emCal(60, 40);
+          }
+          p {
+            @include typo($fsz: emCal(16, 14), $lh: emCal(14, 24));
+            margin-bottom: emCal(14, 40);
+          }
         }
         .accordion {
           margin-bottom: emCal(16, 40);

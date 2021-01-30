@@ -59,45 +59,19 @@ export default function IntroductionSeven({ data }) {
             <div className="row no-gutters">
               <div className="col-12 col-lg-9 col-xl-6 ml-auto">
                 <div className="introduction-seven__wrapper__content__detail">
+                  <h5>Green</h5>
                   <SectionTitleOne hideDecoration spaceBottom="1.2em">
                     Try Our Green Coffee
                   </SectionTitleOne>
-                  <Accordion
-                    defaultActiveKey={parseInt(currentAccordionIndex)}
-                    onSelect={(i) => setCurrentAccordionIndex(i)}
-                  >
-                    {data &&
-                      data.map((item, index) => (
-                        <Card key={index}>
-                          <Accordion.Toggle as={Card.Header} eventKey={item.id}>
-                            {item.header}
-                            <i
-                              className={`fa fa-angle-${
-                                parseInt(currentAccordionIndex) === item.id
-                                  ? "up"
-                                  : "down"
-                              }`}
-                            />
-                          </Accordion.Toggle>
-                          <Accordion.Collapse eventKey={item.id}>
-                            <Card.Body>
-                              <p>{item.body}</p>
-                            </Card.Body>
-                          </Accordion.Collapse>
-                        </Card>
-                      ))}
-                  </Accordion>
-                  <div className="quantity-group">
-                    <div className="quantity-group__controller">
-                      <span>Quantity:</span>
-                      <Quantity getQuantity={setQuantity} />
-                    </div>
-                    <Button
-                      action={process.env.PUBLIC_URL + "#"}
-                      color="dark"
-                      content="Purchase"
-                    />
-                  </div>
+                  <h3>free sample</h3>
+                  <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.{" "}
+                  </p>
+                  <Button
+                    action={process.env.PUBLIC_URL + "#"}
+                    color="dark"
+                    content="More info"
+                  />
                 </div>
               </div>
             </div>

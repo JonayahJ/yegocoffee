@@ -43,7 +43,7 @@ export default function ProductSlideOne({ data }) {
     <div className="product-slide">
       <div className="container">
         <SectionTitleOne align="center" spaceBottom="50px">
-          Beauty Products
+          Try Our Coffee
         </SectionTitleOne>
         <ProductSlider data={data} sliderSettings={settings} />
         <div className="text-center">
@@ -51,7 +51,7 @@ export default function ProductSlideOne({ data }) {
             action={process.env.PUBLIC_URL + "/shop/fullwidth-4col"}
             color="transparent"
             className="-underline"
-            content="View all product"
+            content="View all products"
           />
         </div>
       </div>

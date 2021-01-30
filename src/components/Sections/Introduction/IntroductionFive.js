@@ -11,12 +11,12 @@ export default function IntroductionFive() {
       <div className="container">
         <div className="introduction-five__content">
           <h2>
-            New items are <br />
-            released weekly.
+            Coffee that <br />
+            changes lives
           </h2>
           <Button
-            action={process.env.PUBLIC_URL + "/shop/fullwidth-4col"}
-            content="All news items"
+            action={process.env.PUBLIC_URL + "#"}
+            content="Learn More"
             color="red"
           />
         </div>
