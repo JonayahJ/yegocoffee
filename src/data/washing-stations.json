@@ -18,8 +18,8 @@
         "/assets/images/washing-stations/busanze/3.png",
         "/assets/images/washing-stations/busanze/4.png"
       ],
-      "description": "",
-      "slug": "busanze"
+      "description": "The Busanze Station is a new coffee washing station started in 2018 by Impexcor Coffee and the local farmers of Nyaruguru district. The washing station is located at the edges of Nyungwe forest which allows the nearby coffee trees to grow in the shade of other trees. This gives beans to be rich in density and aroma.\nThe story of the Busanze Station is not only about the quality, but also about the history and patriotism of Nyaruguru people. Usually, Nyaruguru district is known as the home of the most resilient people in the nation. After the genocide against the Tutsi, Nyaruguru became a beacon of unity and reconciliation. Currently, Busanze Station helps create farmer cooperatives for different villages. A good example is the success story of Cooperative Umurego Nteko (KUN) that composed of 82 farmers, mainly young men and women mostly from families from both genocide survivors and perpetrators.\nBusanze Station is 50% owned by the village's farmers cooperative and the other half is owned by the processing company, Impexcor Coffee. This gives the farmer a voice to decide the future of the coffee they produce. This practice creates a sense of ownership that motivates farmers to improve the quality of the coffee.  And it is for that reason that coffee from Busanze has recently won multiple awards including the Alliance Cup of Excellence in 2018.",
+      "slug": "busanze-station"
     },
     {
       "id": "2",
@@ -40,8 +40,8 @@
         "/assets/images/washing-stations/butambamo/3.png",
         "/assets/images/washing-stations/butambamo/4.png"
       ],
-      "description": "",
-      "slug": "butambamo"
+      "description": "The Butambamo Station is located in Rusizi District, which is in the Western Province of Rwanda. Farms in the Butambamo area are mostly owned by farmers cooperatives that own the land in the mountains of Nzahaha, a well-known region for fertile sandy loam soil alongside the Rusizi River. During the harvest season in the Butambamo and Nzahaha region, there is heavy rain and a high inclination of soil. The accessibility of the area is very challenging due to the road conditions (mostly muddy). It is for this reason that most of the production at the Butambamo Station is transported by bikes.",
+      "slug": "butambamo-station"
     },
     {
         "id": "3",
@@ -66,8 +66,8 @@
           "/assets/images/washing-stations/gatare/3.png",
           "/assets/images/washing-stations/gatare/4.png"
         ],
-        "description": "",
-        "slug": "gatare"
+        "description": "Within Nyamasheke District, Gatare Station can be found in the localities that surround Kivu Lake, which is a few miles from the Nyungwe Forest. Generally, coffee from Gatare Station comes from the Kivu Belt and the mountains of the Nyungwe Forest edges. Gatare Station is more than a business, they've become a family with 25 permanent employees -- more than 20 of whom have been there for more than a decade. It is for that stability that Gatare Station has been a place where Impexcor Coffee conducts most of its research and trials of the new coffee process. Gatare Station was the first station to produce the natural and honey process. Believe me, we are the best in these processes!",
+        "slug": "gatare-station"
       },
       {
         "id": "4",
@@ -88,7 +88,7 @@
           "/assets/images/washing-stations/kiyumba/3.png",
           "/assets/images/washing-stations/kiyumba/4.png"
         ],
-        "description": "",
-        "slug": "kiyumba"
+        "description": "Established in 2018 in the Muhanga District near Ndiza Hills, the Kiyumba Station is the newest washing station that we operate. This station was created after realizing that the region did not have a competiting station, but produces the highest quality of coffee. The supply of coffee is mainly from the Kiyumba, Rongi, and Nyabinoni Sectors.  The famers who work these sectors comprise a large cooperative of 1,300 members called COCAM.  This cooperative is composed of 440 women and 860 men.  Together, they are currently growing 566,582 coffee trees on only 342 ha. The processing company, Impexcor Coffee, aims to provide training on the welfare of farmers, on increasing sensitivity to female farmers to hopefully incentivize them joining the cooperatives, and on cultivating the nearby coffee nursery.",
+        "slug": "kiyumba-station"
       }
 ]
