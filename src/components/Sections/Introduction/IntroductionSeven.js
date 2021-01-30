@@ -16,16 +16,13 @@ export default function IntroductionSeven({ data }) {
             <div className="row no-gutters">
               <div className="col-12 col-lg-9 col-xl-6">
                 <div className="introduction-seven__wrapper__content__detail">
-                  <h5>Put it in Neutral</h5>
+                  <h5>Roasts</h5>
                   <SectionTitleOne hideDecoration spaceBottom="1.2em">
-                    Enlightened Beauty
+                    Dark Roasted Coffee
                   </SectionTitleOne>
-                  <h3>$125.00</h3>
+                  <h3>from $15</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis ipsum suspendisse ultrices gravida lacus vel
-                    facilisis.{" "}
+                  This dense mountain coffee produces the most aromatic dark roast profile.  Roasted in small batches on well-controlled temperatures, this roast creates a hint of sweet citrus taste within the bitter taste of a dark roast.{" "}
                   </p>
                   <Button
                     action={process.env.PUBLIC_URL + "#"}
@@ -43,7 +40,7 @@ export default function IntroductionSeven({ data }) {
               process.env.PUBLIC_URL +
               "/assets/images/introduction/IntroductionSeven/1.png"
             }
-            alt="Section image"
+            alt="Dark roasted coffee packaging"
           />
         </div>
       </div>
@@ -54,7 +51,7 @@ export default function IntroductionSeven({ data }) {
               process.env.PUBLIC_URL +
               "/assets/images/introduction/IntroductionSeven/2.png"
             }
-            alt="Section image"
+            alt="Green coffee sample"
           />
         </div>
         <div className="introduction-seven__wrapper__content">
@@ -63,7 +60,7 @@ export default function IntroductionSeven({ data }) {
               <div className="col-12 col-lg-9 col-xl-6 ml-auto">
                 <div className="introduction-seven__wrapper__content__detail">
                   <SectionTitleOne hideDecoration spaceBottom="1.2em">
-                    User Instructions
+                    Try Our Green Coffee
                   </SectionTitleOne>
                   <Accordion
                     defaultActiveKey={parseInt(currentAccordionIndex)}
