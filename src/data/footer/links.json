@@ -1,21 +1,19 @@
 {
   "accountLinks": [
-    { "name": "My account", "to": "#" },
-    { "name": "Wishlist", "to": "/shop/wishlist" },
+    { "name": "My Account", "to": "#" },
     { "name": "Cart", "to": "/shop/cart" },
     { "name": "Shop", "to": "/shop/fullwidth-4col" },
     { "name": "Checkout", "to": "/shop/checkout" }
   ],
   "informationLinks": [
-    { "name": "About us", "to": "/other/about" },
-    { "name": "Careers", "to": "/other/contact" },
-    { "name": "Delivery Information", "to": "/other/contact" },
-    { "name": "Privacy Policy", "to": "/other/contact" },
-    { "name": "Terms & Condition", "to": "/other/contact" }
+    { "name": "About Francois", "to": "/other/about" },
+    { "name": "Our Story", "to": "/other/contact" },
+    { "name": "Giving Back", "to": "/other/contact" },
+    { "name": "Washing Stations", "to": "/other/contact" }
   ],
   "creditLinks": [
     { "name": "Privacy Policy", "to": "/other/contact" },
-    { "name": "Terms & Condition", "to": "/other/contact" },
+    { "name": "Terms & Conditions", "to": "/other/contact" },
     { "name": "Site map", "to": "/other/contact" }
   ]
 }

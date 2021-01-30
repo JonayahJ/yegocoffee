@@ -37,7 +37,7 @@ export default function FooterOne() {
           <div className="row">
             <div className="col-12 col-md-6 col-lg-4">
               <div className="footer__section -info">
-                <h5 className="footer-title">Contact info</h5>
+                <h5 className="footer-title">Contact</h5>
                 <p>
                   Location: <span>{footerInfomation.location}</span>
                 </p>
@@ -81,7 +81,7 @@ export default function FooterOne() {
             </div>
             <div className="col-12 col-lg-4">
               <div className="footer__section -payment">
-                <h5 className="footer-title">Payment methods</h5>
+                <h5 className="footer-title">Payment Methods</h5>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit
                   gravida facilisis.{" "}
@@ -92,7 +92,7 @@ export default function FooterOne() {
                       process.env.PUBLIC_URL +
                       "/assets/images/footer/payment.png"
                     }
-                    alt="Payment methods"
+                    alt="Payment Methods"
                   />
                 </div>
               </div>
@@ -103,7 +103,7 @@ export default function FooterOne() {
       <div className="footer-one__footer">
         <div className="container">
           <div className="footer-one__footer__wrapper">
-            <p>© Copyright 2021 Yego Coffee</p>
+            <p>© 2021 Yego Coffee</p>
             <ul>
               {footerLinks.creditLinks.map((link, index) => (
                 <li key={index}>
