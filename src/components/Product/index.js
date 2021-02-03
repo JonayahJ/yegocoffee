@@ -244,10 +244,7 @@ function Product({ data, type, className }) {
               </div>
             </div>
             <div className="product-list__content__bottom">
-              <p className="product-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-                ipsa fugiat accusantium reiciendis rem doloribus iste doloremque
-              </p>
+              <p className="product-description">{data.description}</p>
               <div className="product__actions">
                 <div className="product-btn">
                   <AddToCart
@@ -275,27 +272,6 @@ function Product({ data, type, className }) {
                 </div>
                 <ReactTooltip id="l-qvIcon" type="dark" effect="solid">
                   <span>Quick view</span>
-                </ReactTooltip>
-                <div
-                  className="product-btn"
-                  data-tip
-                  data-for="l-wlIcon"
-                  style={{ marginRight: 0 }}
-                >
-                  <Button
-                    height={50 / 14 + "em"}
-                    width={50 / 14 + "em"}
-                    color="white"
-                    className={`product__actions__item -round ${classNames({
-                      active: checkProductInWishList(wishlistData, data.id),
-                    })}`}
-                    action="#"
-                    onClick={addToWishlistHandle}
-                    content={<i className="fas fa-heart" />}
-                  ></Button>
-                </div>
-                <ReactTooltip id="l-wlIcon" type="dark" effect="solid">
-                  <span>Add to Wishlist</span>
                 </ReactTooltip>
               </div>
             </div>

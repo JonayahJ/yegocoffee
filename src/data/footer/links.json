@@ -6,14 +6,14 @@
     { "name": "Checkout", "to": "/shop/checkout" }
   ],
   "informationLinks": [
-    { "name": "About Francois", "to": "/other/about" },
-    { "name": "Our Story", "to": "/other/contact" },
-    { "name": "Giving Back", "to": "/other/contact" },
-    { "name": "Washing Stations", "to": "/other/contact" }
+    { "name": "About Francois", "to": "/about/about-francois" },
+    { "name": "Our Story", "to": "/about/our-story" },
+    { "name": "Giving Back", "to": "/about/giving-back" },
+    { "name": "Washing Stations", "to": "/about/washing-stations" }
   ],
   "creditLinks": [
-    { "name": "Privacy Policy", "to": "/other/contact" },
-    { "name": "Terms & Conditions", "to": "/other/contact" },
-    { "name": "Site map", "to": "/other/contact" }
+    { "name": "Privacy Policy", "to": "/legal/privacy" },
+    { "name": "Terms & Conditions", "to": "/legal/terms" },
+    { "name": "Site map", "to": "#" }
   ]
 }

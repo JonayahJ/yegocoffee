@@ -2,16 +2,16 @@
   { "title": "Home", "to": "/"  },
   { 
     "title": "About", 
-    "to": "/other/about",
+    "to": "/about/about",
 
     "subMenu": [
-      { "title": "About Francois", "to": "/homepages/homepage4" },
-      { "title": "Our Story", "to": "/homepages/homepage5" },
-      { "title": "Coffee That Changes Lives", "to": "/homepages/homepage6" },
-      { "title": "Washing Stations", "to": "/homepages/homepage3" }
+      { "title": "About Francois", "to": "/about/about-francois" },
+      { "title": "Our Story", "to": "/about/our-story" },
+      { "title": "Giving Back", "to": "/about/giving-back" },
+      { "title": "Washing Stations", "to": "/about/washing-stations" }
     ]
   },
   { "title": "Shop", "to": "/shop/fullwidth-4col"  },
   { "title": "Blog", "to": "/blog" },
-  { "title": "Contact", "to": "/other/contact" }
+  { "title": "Contact", "to": "/contact" }
 ]

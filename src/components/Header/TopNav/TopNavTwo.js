@@ -12,8 +12,6 @@ const quickLinks = [
 ];
 
 export default function TopNavTwo({ container }) {
-  const [currency, setCurrency] = useState("USD");
-  const [language, setLanguage] = useState("ENG");
   return (
     <div className="top-nav -style-2">
       <div className={renderContainer(container)}>
@@ -28,19 +26,9 @@ export default function TopNavTwo({ container }) {
             </ul>
           </div>
           <p className="top-nav__wrapper__promo">
-            Free shipping on international orders of $120+
+            Free shipping on all orders over $40
           </p>
           <div className="top-nav__wrapper__selectors">
-            <Select
-              options={["USD", "VND", "YEN"]}
-              getValue={(val) => setCurrency(val)}
-              className="-borderless"
-            />
-            <Select
-              options={["ENG", "VI", "JP"]}
-              getValue={(val) => setLanguage(val)}
-              className="-borderless"
-            />
             <Link href={process.env.PUBLIC_URL + "#"}>
               <a className="top-nav__auth">Login/Register</a>
             </Link>

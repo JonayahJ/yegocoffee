@@ -1,15 +1,15 @@
 [
   {
     "id": "1",
-    "category": "eyes",
-    "name": "The expert mascaraa",
-    "rate": 4,
-    "price": 35,
+    "category": "Roasted Coffee",
+    "name": "Dark Roast",
+    "rate": 5,
+    "price": 15,
     "new": true,
     "brand": "gucci",
     "code": "PM 01",
     "point": 30,
-    "quantity": 0,
+    "quantity": 10,
     "variation": [
       {
         "color": "red",
@@ -32,8 +32,8 @@
       "/assets/images/product/3.png",
       "/assets/images/product/4.png"
     ],
-    "description": "",
-    "slug": "the-expert-mascaraa-1"
+    "description": "This dense mountain coffee produces the most aromatic dark roast profile.  Roasted in small batches on well-controlled temperatures, this roast creates a hint of sweet citrus taste within the bitter taste of a dark roast.",
+    "slug": "dark-roast"
   },
   {
     "id": "2",

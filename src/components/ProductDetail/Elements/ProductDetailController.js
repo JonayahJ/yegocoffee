@@ -43,24 +43,6 @@ export default function ProductDetailController({
         })}`}
         onClick={onAddToCart}
       />
-      <div className="product-detail__controler__actions">
-        <div data-tip data-for="add-wishlist">
-          <Button
-            action="#"
-            height="3.85em"
-            width="3.85em"
-            className={`-round ${classNames({
-              active: checkProductInWishList(wishlistState, data.id),
-            })}`}
-            onClick={onAddToWishList}
-            color="white"
-            content={<i className="fas fa-heart"></i>}
-          />
-        </div>
-        <ReactTooltip id="add-wishlist" type="dark" effect="solid">
-          <span>Add to wishlist</span>
-        </ReactTooltip>
-      </div>
     </div>
   );
 }
